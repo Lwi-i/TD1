@@ -30,7 +30,8 @@ public class Document {
     public void majuscules(int debut, int fin) {
 
         String partie = texte.substring(debut, fin);
-        remplacer(debut, fin, partie);
+        partie =partie.toUpperCase();
+        remplacer(debut, fin-1, partie);
 
     }
 

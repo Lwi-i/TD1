@@ -41,7 +41,7 @@ public class Document {
     }
     public void clear() {
 
-      texte="f";
+      texte="";
     }
 
 

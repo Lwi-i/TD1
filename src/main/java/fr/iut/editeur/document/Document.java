@@ -39,6 +39,12 @@ public class Document {
 
         remplacer(debut, fin, "");
     }
+    public void clear() {
+
+      texte="f";
+    }
+
+
 
 
     @Override

@@ -44,6 +44,15 @@ public class Document {
       texte="";
     }
 
+    public void inserer(int place,String remplacement) {
+
+        String partieGauche = texte.substring(0, place);
+        String partieDroite = texte.substring(place);
+        String rep = partieGauche + remplacement + partieDroite;
+        texte=rep;
+
+    }
+
 
 
 
